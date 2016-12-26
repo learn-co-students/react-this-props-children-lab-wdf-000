@@ -1,5 +1,6 @@
 const React = require('react');
-const ReactDOM = require('react-dom');
+// const ReactDOM = require('react-dom');
+import ReactDOM from 'react-dom';
 
 const Invitation = require('./components/Invitation');
 const ThemedParty = require('./components/ThemedDecorations');

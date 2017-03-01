@@ -16,7 +16,7 @@ describe('<Invitation />', function () {
   it('should render an invitation title', function () {
     const title = wrapper.find('h1');
     expect(title.length).toEqual(1, 'The component does not have a `h1` element');
-    expect(title.text()).toEqual("You've been invited!", 'The component does not have the right title content');
+    expect(title.text()).toEqual("You have been Invited!", 'The component does not have the right title content');
   });
 
   it('should render the passed children', function () {
